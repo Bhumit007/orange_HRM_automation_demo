@@ -68,10 +68,10 @@ import static org.testng.Reporter.log;
             try {
                 employeeLeaveProcessPage.clickOnLeave().clickOnAssignLeave().enterAssignEmployeeName().fillDataForAssignLeave().clickOnAssignButton();
                 employeeLeaveProcessPage.verifySuccessMessageForAssignLeave();
-                logToReport("User successfully enter all mandatory field in employee tab.");
+                logToReport("User assign leave is successfully verify.");
             } catch (Exception |AssertionError E) {
-                System.out.println("User Could not enter all mandatory field in employee tab or verify validation message.");
-                Assert.fail("User Could not enter all mandatory field in employee tab or verify validation message.",E);
+                System.out.println("User assign leave not verify or verify validation message.");
+                Assert.fail("User assign leave not verify or verify validation message.",E);
             }
         }
 
@@ -83,10 +83,10 @@ import static org.testng.Reporter.log;
                 Thread.sleep(2000);
                 employeeLeaveProcessPage.clickOnAdminTab().txtSearchSystemUserEmployeeName().clickOnCheckBox().clickOnDeleteButton().clickOnDialogBox();
                 employeeLeaveProcessPage.verifySuccessMessageForDeleteRecord();
-                logToReport("User successfully enter all mandatory field in employee tab.");
+                logToReport("User successfully delete from database.");
             } catch (Exception |AssertionError E) {
-                System.out.println("User Could not enter all mandatory field in employee tab or verify validation message.");
-                Assert.fail("User Could not enter all mandatory field in employee tab or verify validation message.",E);
+                System.out.println("User could not delete from database or verify validation message.");
+                Assert.fail("User could not delete from database or verify validation message.",E);
             }
         }
 
