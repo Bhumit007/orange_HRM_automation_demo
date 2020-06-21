@@ -1,0 +1,37 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "User Could not enter all mandatory field in employee tab or verify validation message.",
+      "children" : [ {
+        "name" : "orangeHRM_004_verifyAssignedLeave",
+        "uid" : "aaeeb22bd64daae7",
+        "parentUid" : "7d62284c249998711ecdee25cdd5516c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1592403007973,
+          "stop" : 1592403059576,
+          "duration" : 51603
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "orangeHRM_005_verifyDeleteEmployeeByAdmin",
+        "uid" : "c1898103cb82a340",
+        "parentUid" : "7d62284c249998711ecdee25cdd5516c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1592403059580,
+          "stop" : 1592403098035,
+          "duration" : 38455
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7d62284c249998711ecdee25cdd5516c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

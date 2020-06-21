@@ -1,0 +1,51 @@
+[ {
+  "uid" : "33593f84d398a55c",
+  "name" : "orangeHRM_002_verifyToFillAllMandatoryFieldInEmployeeTab",
+  "time" : {
+    "start" : 1592402981406,
+    "stop" : 1592402997829,
+    "duration" : 16423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1898103cb82a340",
+  "name" : "orangeHRM_005_verifyDeleteEmployeeByAdmin",
+  "time" : {
+    "start" : 1592403059580,
+    "stop" : 1592403098035,
+    "duration" : 38455
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aaeeb22bd64daae7",
+  "name" : "orangeHRM_004_verifyAssignedLeave",
+  "time" : {
+    "start" : 1592403007973,
+    "stop" : 1592403059576,
+    "duration" : 51603
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4592d9878a4e862e",
+  "name" : "orangeHRM_003_verifyToAddEntitlement",
+  "time" : {
+    "start" : 1592402997840,
+    "stop" : 1592403007968,
+    "duration" : 10128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "feb1775bb4cf1925",
+  "name" : "orangeHRM_001_verifyLoginSuccessfully",
+  "time" : {
+    "start" : 1592402971790,
+    "stop" : 1592402981215,
+    "duration" : 9425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

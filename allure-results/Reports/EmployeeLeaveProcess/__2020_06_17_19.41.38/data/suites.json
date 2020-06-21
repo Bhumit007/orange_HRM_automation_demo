@@ -1,0 +1,77 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "orange-hrm",
+      "children" : [ {
+        "name" : "OrangeHRMTest.EmployeeLeaveProcessTest",
+        "children" : [ {
+          "name" : "orangeHRM_001_verifyLoginSuccessfully",
+          "uid" : "feb1775bb4cf1925",
+          "parentUid" : "000f8c4352c31a8730232857a981b215",
+          "status" : "passed",
+          "time" : {
+            "start" : 1592402971790,
+            "stop" : 1592402981215,
+            "duration" : 9425
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "orangeHRM_002_verifyToFillAllMandatoryFieldInEmployeeTab",
+          "uid" : "33593f84d398a55c",
+          "parentUid" : "000f8c4352c31a8730232857a981b215",
+          "status" : "passed",
+          "time" : {
+            "start" : 1592402981406,
+            "stop" : 1592402997829,
+            "duration" : 16423
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "orangeHRM_003_verifyToAddEntitlement",
+          "uid" : "4592d9878a4e862e",
+          "parentUid" : "000f8c4352c31a8730232857a981b215",
+          "status" : "passed",
+          "time" : {
+            "start" : 1592402997840,
+            "stop" : 1592403007968,
+            "duration" : 10128
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "orangeHRM_004_verifyAssignedLeave",
+          "uid" : "aaeeb22bd64daae7",
+          "parentUid" : "000f8c4352c31a8730232857a981b215",
+          "status" : "failed",
+          "time" : {
+            "start" : 1592403007973,
+            "stop" : 1592403059576,
+            "duration" : 51603
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "orangeHRM_005_verifyDeleteEmployeeByAdmin",
+          "uid" : "c1898103cb82a340",
+          "parentUid" : "000f8c4352c31a8730232857a981b215",
+          "status" : "failed",
+          "time" : {
+            "start" : 1592403059580,
+            "stop" : 1592403098035,
+            "duration" : 38455
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "000f8c4352c31a8730232857a981b215"
+      } ],
+      "uid" : "4572422189b9086adbbac01a41017293"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}

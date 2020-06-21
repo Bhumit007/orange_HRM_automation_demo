@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"passed","OrangeHRMTest.EmployeeLeaveProcessTest.orangeHRM_001_verifyLoginSuccessfully","9425",""
+"failed","OrangeHRMTest.EmployeeLeaveProcessTest.orangeHRM_004_verifyAssignedLeave","51603",""
+"passed","OrangeHRMTest.EmployeeLeaveProcessTest.orangeHRM_002_verifyToFillAllMandatoryFieldInEmployeeTab","16423",""
+"failed","OrangeHRMTest.EmployeeLeaveProcessTest.orangeHRM_005_verifyDeleteEmployeeByAdmin","38455",""
+"passed","OrangeHRMTest.EmployeeLeaveProcessTest.orangeHRM_003_verifyToAddEntitlement","10128",""

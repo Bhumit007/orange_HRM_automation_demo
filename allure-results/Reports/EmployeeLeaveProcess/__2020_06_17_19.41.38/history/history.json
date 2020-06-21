@@ -1,0 +1,99 @@
+{
+  "31d97d44b29d730c7b51b8d1227c6cae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33593f84d398a55c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592402981406,
+        "stop" : 1592402997829,
+        "duration" : 16423
+      }
+    } ]
+  },
+  "50e3e9a40668c58fb11df87350ef9168" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "feb1775bb4cf1925",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592402971790,
+        "stop" : 1592402981215,
+        "duration" : 9425
+      }
+    } ]
+  },
+  "1cafa6a9f3d0148f95e97d1fea9c59b3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aaeeb22bd64daae7",
+      "status" : "failed",
+      "statusDetails" : "User Could not enter all mandatory field in employee tab or verify validation message.",
+      "time" : {
+        "start" : 1592403007973,
+        "stop" : 1592403059576,
+        "duration" : 51603
+      }
+    } ]
+  },
+  "e66f38bbc9488105a8285a7bde599880" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4592d9878a4e862e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592402997840,
+        "stop" : 1592403007968,
+        "duration" : 10128
+      }
+    } ]
+  },
+  "b733bd32aa0723874a6daea40e59d7dd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1898103cb82a340",
+      "status" : "failed",
+      "statusDetails" : "User Could not enter all mandatory field in employee tab or verify validation message.",
+      "time" : {
+        "start" : 1592403059580,
+        "stop" : 1592403098035,
+        "duration" : 38455
+      }
+    } ]
+  }
+}
